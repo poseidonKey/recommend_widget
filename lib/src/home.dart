@@ -1,3 +1,4 @@
+import 'package:dev_man_recommend_flutter_widget/src/back_drop_filter/back_drop_filter_page.dart';
 import 'package:dev_man_recommend_flutter_widget/src/hero/hero_page.dart';
 import 'package:dev_man_recommend_flutter_widget/src/skeletons/skeletons_page.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +32,9 @@ class Home extends StatelessWidget {
               child: const Text('Hero'),
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                gotoPage(context, const BackDropFilterPage());
+              },
               child: const Text('BackdropFilter'),
             ),
             ElevatedButton(
