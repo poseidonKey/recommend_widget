@@ -19,7 +19,7 @@ class _GoogleFontsPageState extends State<GoogleFontsPage> {
   }
 
   List<String> keys = [];
-  List<TextStyle Function()> values = [];
+  List<TextStyle Function({double fontSize})> values = [];
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +31,7 @@ class _GoogleFontsPageState extends State<GoogleFontsPage> {
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               child: Text(
                 keys[index].toString(),
-                style: values[index](),
+                style: values[index](fontSize: 25),
               ),
             );
           },

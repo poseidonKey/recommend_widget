@@ -60,12 +60,6 @@ class Home extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                gotoPage(context, const SlideDrawerPage());
-              },
-              child: const Text('flutter_slide_drawer'),
-            ),
-            ElevatedButton(
-              onPressed: () {
                 gotoPage(context, const SpinkitPage());
               },
               child: const Text('flutter_spinkit'),
@@ -88,6 +82,12 @@ class Home extends StatelessWidget {
                 gotoPage(context, CarouselSliderPage());
               },
               child: const Text('carousel_slider'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                gotoPage(context, const SlideDrawerPage());
+              },
+              child: const Text('flutter_slide_drawer'),
             ),
           ],
         ),

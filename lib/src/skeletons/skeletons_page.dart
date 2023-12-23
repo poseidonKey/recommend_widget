@@ -20,7 +20,7 @@ class _SkeletonsPageState extends State<SkeletonsPage> {
   void changeState() async {
     _isLoading = true;
     update();
-    await Future.delayed(const Duration(milliseconds: 500));
+    await Future.delayed(const Duration(milliseconds: 2500));
     _isLoading = false;
     update();
   }
@@ -86,7 +86,7 @@ class _SkeletonsPageState extends State<SkeletonsPage> {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Text(
-                      '가나다라마바사',
+                      '개발하는남자',
                       style:
                           TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
                     ),

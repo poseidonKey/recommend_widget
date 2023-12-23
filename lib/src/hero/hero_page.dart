@@ -28,7 +28,10 @@ class HeroPage extends StatelessWidget {
                 ),
               ),
             ),
-            const Text('Hero 사용 효과'),
+            const Text(
+              'Hero 사용 효과',
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+            ),
             const SizedBox(height: 50),
             GestureDetector(
               onTap: () {
@@ -43,7 +46,10 @@ class HeroPage extends StatelessWidget {
                 height: 200,
               ),
             ),
-            const Text('Hero 사용하지 않음'),
+            const Text(
+              'Hero 사용하지 않음',
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+            ),
           ],
         ),
       ),
