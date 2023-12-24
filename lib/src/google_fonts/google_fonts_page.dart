@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class GoogleFontsPage extends StatefulWidget {
-  GoogleFontsPage({super.key});
+  const GoogleFontsPage({super.key});
 
   @override
   State<GoogleFontsPage> createState() => _GoogleFontsPageState();
