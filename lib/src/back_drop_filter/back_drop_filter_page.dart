@@ -22,7 +22,7 @@ class _BackDropFilterPageState extends State<BackDropFilterPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BackDropFilter'),
+        title: const Text('BackDropFilter'),
       ),
       body: Stack(
         children: <Widget>[
@@ -65,10 +65,10 @@ class _BackDropFilterPageState extends State<BackDropFilterPage> {
                   },
                   child: Container(
                     height: 200.0,
-                    color: Colors.black.withOpacity(0),
+                    color: Colors.black.withOpacity(.3),
                     child: const Center(
                       child: Text(
-                        'UI Backdrop Filter',
+                        'UI Backdrop [Filter tap area]',
                         style: TextStyle(color: Colors.pink, fontSize: 24.0),
                       ),
                     ),

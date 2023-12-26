@@ -1,4 +1,3 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dev_man_recommend_flutter_widget/src/cached_network_image/cached_network_image_view.dart';
 import 'package:dev_man_recommend_flutter_widget/src/cached_network_image/image_network_image_view.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +12,7 @@ class CachedNetworkImagePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Hero')),
+      appBar: AppBar(title: const Text('Cached Image')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
